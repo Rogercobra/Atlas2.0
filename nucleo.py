@@ -9,7 +9,7 @@ import time
 wikipedia.set_lang("pt")
 
 # Inicializa pyttsx3 usando o eSpeak
-engine = pyttsx3.init(driverName='espeak')  # Força o uso do espeak
+engine = pyttsx3.init(driverName='sapi5')  # Força o uso do espeak
 
 # Procura uma voz em português disponível
 voice_found = False
